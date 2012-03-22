@@ -9,6 +9,6 @@ public class Main {
     sendStatus(StatusCode.HTTP505);
   }
   public static void sendStatus(StatusCode s){
-    System.out.println(s.getDescribtion());
+    System.out.println(s.getDescription());
   }
 }

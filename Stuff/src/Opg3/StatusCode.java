@@ -41,15 +41,15 @@ public enum StatusCode {HTTP100("Continue", 100),
   HTTP504("Gateway Time-out", 504), 
   HTTP505("HTTP Version not supported", 505);             
 
-  private String describtion;
+  private String description;
   private int httpNumber;
   
   StatusCode(String s, int i){
-    describtion = s;
+    description = s;
     httpNumber = i;
   }
   
-  public String getDescribtion(){
-    return (httpNumber + " " + describtion);
+  public String getDescription(){
+    return (httpNumber + " " + description);
   }
 }
