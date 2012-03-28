@@ -16,6 +16,6 @@ public class TestOwnExceptions {
   }
 
   public static void throwMyUncheckedException() {
-
+    //Look crelde, a change
   }
 }
