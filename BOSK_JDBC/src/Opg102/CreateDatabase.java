@@ -20,6 +20,7 @@ public class CreateDatabase {
 		Connection con = DriverManager.getConnection(url);
 		Statement stmt = con.createStatement();
 
+		
 		dropTable(stmt);
 		createTable(stmt);
 		insertData(stmt);
