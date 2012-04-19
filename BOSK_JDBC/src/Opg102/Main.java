@@ -6,6 +6,11 @@ public class Main {
 
 	public static void main(String[] args) {
 
+	  try {
+      CreateDatabase.main(args);
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
 		// Create a single person
 		Person p = new Person(5, "Ole", "Jensen");
 		System.out.println("Created the person: " + p);
